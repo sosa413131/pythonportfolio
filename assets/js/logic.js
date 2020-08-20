@@ -1,5 +1,3 @@
-console.log("javascript loaded!")
-
 !(function($) {
     "use strict";
   

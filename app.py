@@ -5,7 +5,7 @@ obj={}
 
 @app.route('/')
 def home():
-    obj["title"]="Personal Webpage | David W Sosa "
+    obj["title"]="DWS"
     obj["style"]="assets/css/style.css"
     obj["logic"]="assets/js/logic.js"
     return render_template('child.html', obj=obj)
